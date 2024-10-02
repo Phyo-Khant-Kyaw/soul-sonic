@@ -29,6 +29,6 @@ class CreateAlbumsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('_albums');
+        Schema::dropIfExists('albums');
     }
 }

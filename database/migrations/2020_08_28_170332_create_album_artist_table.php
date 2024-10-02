@@ -34,6 +34,6 @@ class CreateAlbumArtistTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('_album__artist');
+        Schema::dropIfExists('album__artist');
     }
 }
